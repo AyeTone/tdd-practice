@@ -7,13 +7,15 @@ const Login = () => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [user, setUser] = useState({});
+  const random = Math.floor(Math.random() * 11);
 
   async function handleClick(e) {
     e.preventDefault();
     setLoading(true);
+    setError(false);
     try {
       const { data } = await axios.get(
-        "https://jsonplaceholder.typicode.com/users/1"
+        `https://jsonplaceholder.typicode.com/users/${random}`
       );
       setUser(data);
     } catch {
@@ -25,7 +27,7 @@ const Login = () => {
   return (
     <div className="container">
       <h1>You can enter anything.</h1>
-      <span className="user"> {user.name} </span>
+      <span className="user"> {!error && user.name} </span>
 
       <form>
         <input
