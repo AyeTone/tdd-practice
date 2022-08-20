@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tdd-practice/static/css/main.032f091d.css",
+    "main.js": "/tdd-practice/static/js/main.03d8ff23.js",
+    "static/js/787.b2d68be4.chunk.js": "/tdd-practice/static/js/787.b2d68be4.chunk.js",
+    "index.html": "/tdd-practice/index.html",
+    "main.032f091d.css.map": "/tdd-practice/static/css/main.032f091d.css.map",
+    "main.03d8ff23.js.map": "/tdd-practice/static/js/main.03d8ff23.js.map",
+    "787.b2d68be4.chunk.js.map": "/tdd-practice/static/js/787.b2d68be4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.032f091d.css",
+    "static/js/main.03d8ff23.js"
+  ]
+}
